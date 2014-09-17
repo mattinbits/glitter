@@ -7,6 +7,7 @@ TODO
 =========
 
 - Lighting Shaders (ADS per vertex)
+- Camera
 - Rift integration
 - Blender Export (inc. Textures and normals)
 - Bump/Normal Mapping
