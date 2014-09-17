@@ -16,7 +16,6 @@ public abstract class Application {
         Log.initialize(name);
     }
 
-
     public void resetTime()
     {
         startTime=System.currentTimeMillis();
