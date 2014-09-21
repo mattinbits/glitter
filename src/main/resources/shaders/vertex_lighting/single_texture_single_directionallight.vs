@@ -13,6 +13,7 @@ struct material{
   mediump vec3 diffuseColor;
   mediump vec3 specularColor;
   mediump vec3 emissiveColor;
+  
 }
 
 mediump uniform mat4 u_mvp_matrix;
@@ -45,5 +46,5 @@ vec3 specularReflection(directional_light lightVec, vec3 normal, vec3 specularCo
 
 vec3 diffuseReflection(directional_light lightVec, vec3 normal, vec3 diffuseColor, float ambientFraction)
 {
-    
+
 }
